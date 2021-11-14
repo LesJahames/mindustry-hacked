@@ -19,7 +19,4 @@ A mod which provides very powerful blocks to Mindustry.
 
 ### Defense
 
-* Hex Field (Currently a WIP of the Force Projector, Super protection coverage, High shield capacity, Minimal downtime)
-
-> Currently the Hex Field doesn't work, and will crash your game.
-
+* Hex Field (Super protection coverage, High shield capacity, Minimal downtime)
