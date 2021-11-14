@@ -1,0 +1,13 @@
+type: Conveyor
+name: Hyper Pass (Float)
+description: Moves items at incredible speeds, floats on water
+requiresWater: true
+hasShadow: false
+health: 1500
+speed: 0.3
+displayedSpeed: 6
+requirements: [
+  copper/15
+]
+category: distribution
+research: hyper-pass

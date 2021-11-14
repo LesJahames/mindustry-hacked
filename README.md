@@ -20,3 +20,7 @@ A mod which provides very powerful blocks to Mindustry.
 ### Defense
 
 * Hex Field (Super protection coverage, High shield capacity, Minimal downtime)
+
+### Distribution
+
+* Hyper Pass (Fast movement of items, also includes a floating varient)
