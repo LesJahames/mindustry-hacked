@@ -1,0 +1,20 @@
+type: Battery
+name: Micro Battery
+description: A high capacity battery
+size: 1
+health: 1250
+hasPower: true
+outputsPower: true
+consumes: {
+  powerBuffered: 20000
+}
+requirements: [
+  copper/400
+]
+category: power
+research: {
+  parent: power-node
+  requirements: [
+    copper/1000
+  ]
+}

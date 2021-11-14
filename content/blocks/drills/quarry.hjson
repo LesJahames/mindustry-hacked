@@ -1,0 +1,21 @@
+type: Drill
+name: Quarry
+description: High yield drill, just costs copper
+
+health: 5000
+size: 2
+
+tier: 5
+drillTime: 180
+rotateSpeed: 3.5
+itemCapacity: 1000
+requirements: [
+  copper/600
+]
+category: production
+research: {
+  parent: mechanical-drill
+  requirements: [
+    copper/2000
+  ]
+}

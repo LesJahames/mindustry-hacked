@@ -1,0 +1,76 @@
+type: ItemTurret
+name: Micro Duo
+description: A upgraded Duo with more range, higher damage, just costs more copper.
+
+health: 1500
+size: 1
+
+reloadTime: 8
+range: 480
+inaccuracy: 1
+rotateSpeed: 16
+shots: 2
+alternate: true
+targetGround: true
+targetAir: true
+recoilAmount: 0
+ammoUseEffect: casing1
+
+ammoTypes: {
+    copper: {
+        speed: 9
+        damage: 48
+        status: melting
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        ammoMultiplier: 1
+        reloadMultiplier: 1.3
+        homingPower: 5
+        homingRange: 16
+    }
+    lead: {
+        speed: 9
+        damage: 48
+        status: melting
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        ammoMultiplier: 1
+        reloadMultiplier: 1.3
+        homingPower: 5
+        homingRange: 16
+    }
+    coal: {
+        speed: 9
+        damage: 48
+        status: melting
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        ammoMultiplier: 1
+        reloadMultiplier: 1.3
+        homingPower: 5
+        homingRange: 16
+    }
+    scrap: {
+        speed: 9
+        damage: 48
+        status: melting
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        ammoMultiplier: 1
+        reloadMultiplier: 1.3
+        homingPower: 5
+        homingRange: 16
+    }
+}
+
+requirements: [
+    copper/500
+]
+
+category: turret
+research: {
+    parent: duo
+    requirements: [
+        copper/2000
+    ]
+}
