@@ -6,7 +6,7 @@ health: 1500
 size: 1
 
 reloadTime: 8
-range: 480
+range: 360
 inaccuracy: 1
 rotateSpeed: 16
 shots: 2

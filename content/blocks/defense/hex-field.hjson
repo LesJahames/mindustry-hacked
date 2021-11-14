@@ -1,5 +1,5 @@
 type: ForceProjector
-name: Hex Field (WIP)
+name: Hex Field
 description: Protects blocks under it, high capacity, minimal downtime, and very little power
 
 health: 1250
@@ -7,14 +7,15 @@ size: 2
 
 phaseUseTime: 150
 phaseRadiusBoost: 101.7
+phaseShieldBoost: 7000
+shieldHealth: 12500
 radius: 203.4
-breakage: 8000
-cooldownNormal: 0.05
-cooldownLiquid: 0.025
-cooldownBrokenBase: 0.075
-basePowerDraw: 0.05
+cooldownNormal: 12.5
+hasItems: false
+itemCapacity: 0
 
-consume: {
+consumes: {
+  power: 1.2
   items: {
     items: [
       copper/1
