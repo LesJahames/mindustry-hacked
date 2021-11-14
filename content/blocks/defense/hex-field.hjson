@@ -1,5 +1,5 @@
 type: ForceProjector
-name: Hex Field
+name: Hex Field (WIP)
 description: Protects blocks under it, high capacity, minimal downtime, and very little power
 
 health: 1250
