@@ -24,5 +24,3 @@ A mod which provides very powerful blocks to Mindustry.
 ### Distribution
 
 * Hyper Pass (Fast movement of items, also includes a floating varient)
-
-> Currently Hyper Pass and Hyper Pass (Float) are both in WIP
