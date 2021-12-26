@@ -1,7 +1,7 @@
 type: SolarGenerator
 name: Solar Array
 description: A very powerful and fairly cheap solar panel
-health: 1000
+health: 550
 size: 1
 hasPower: true
 outputsPower: true
@@ -11,7 +11,7 @@ requirements: [
 ]
 category: power
 research: {
-  parent: power-node
+  parent: power-xfer
   requirements: [
     copper/1500
   ]

@@ -2,13 +2,13 @@ type: Drill
 name: Quarry
 description: High yield drill, just costs copper
 
-health: 5000
+health: 2000
 size: 2
 
 tier: 5
 drillTime: 180
 rotateSpeed: 3.5
-itemCapacity: 1000
+itemCapacity: 100
 requirements: [
   copper/600
 ]
