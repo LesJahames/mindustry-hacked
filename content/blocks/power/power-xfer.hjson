@@ -5,7 +5,7 @@ description: Large area of laser coverage, many connections.
 health: 400
 size: 1
 
-laserRange: 128
+laserRange: 256
 laserColor1: 00ff00
 laserColor2: 00bb00
 maxNodes: 64

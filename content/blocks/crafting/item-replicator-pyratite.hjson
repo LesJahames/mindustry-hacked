@@ -1,0 +1,22 @@
+type: genericCrafter
+craftTime: 32
+name: Item Replicator (Pyratite)
+description: Given power input, produces 1 pyratite.
+
+health: 125
+size: 1
+hasPower: true
+consumes: {
+  power: 1.6
+}
+requirements: [
+  copper/100
+]
+category: crafting
+outputItem: pyratite/1
+research: {
+  parent: item-replicator-copper
+  requirements: [
+    copper/200
+  ]
+}

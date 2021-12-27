@@ -1,0 +1,22 @@
+type: genericCrafter
+craftTime: 32
+name: Item Replicator (Blast Compound)
+description: Given power input, produces 1 blast compound.
+
+health: 125
+size: 1
+hasPower: true
+consumes: {
+  power: 1.4
+}
+requirements: [
+  copper/100
+]
+category: crafting
+outputItem: blast-compound/1
+research: {
+  parent: item-replicator-copper
+  requirements: [
+    copper/200
+  ]
+}

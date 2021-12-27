@@ -5,7 +5,7 @@ health: 550
 size: 1
 hasPower: true
 outputsPower: true
-powerProduction: 16.6667
+powerProduction: 41.6667
 requirements: [
   copper/550
 ]
