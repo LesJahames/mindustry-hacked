@@ -28,3 +28,9 @@ A mod which provides very powerful blocks to Mindustry.
 
 * Hyper Pass (Fast movement of items, also includes a floating varient)
 
+### Crafting
+
+* Item Replicators (Consumes power to produce items, one machine for each item)
+
+> TODO: Build Item Replicator to accept what item it should make, allowing the player to decide what each Item Replicator should be producing. (Rather than each item being a seperate machine)
+
