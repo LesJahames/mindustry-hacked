@@ -1,0 +1,76 @@
+type: flying
+name: FL4GSH1P
+description: The flagship of units.
+
+flying: true
+
+speed: 3.0
+accel: 0.06
+drag: 0.06
+rotateSpeed: 5.0
+rotateShooting: true
+
+health: 16000
+lightColor: 00ff00
+
+range: 128
+miningRange: 128
+
+armor: 16.0
+
+maxRange: 256
+
+isCounted: false
+
+commandLimit: 32
+commandRadius: 256
+
+mineTier: 5
+
+itemCapacity: 1000
+ammoCapacity: 1000
+
+buildSpeed: 8.0
+mineSpeed: 12.0
+
+weapons: [
+  {
+    name: flagship-weapon
+    x: 0
+    y: 0
+    shootY: 6
+    mirror: false
+    rotate: false
+    rotateSpeed: 0.0
+    recoil: 0
+    reload: 8
+    shootSound: shoot
+    shake: 0
+    bullet: {
+      type: BulletType
+      damage: 16
+      lifetime: 20
+      speed: 12.0
+      status: melting
+      homingPower: 8
+      homingRange: 32
+      lightColor: 00ff00
+      incendChance: 1.0
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 1
+        lifetime: 15
+        length: 10
+        strokeFrom: 1
+        strokeTo: 0
+        lenFrom: 4
+        lenTo: 0
+        colorFrom: ffffff
+        colorTo: 00ff00
+      }
+    }
+  }
+]
+
+

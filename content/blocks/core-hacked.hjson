@@ -1,0 +1,23 @@
+type: CoreBlock
+name: Core: H4CK3D
+description: N/A
+
+size: 5
+health: 10000000
+itemCapacity: 1000000
+unitCapModifier: 128
+unitType: flagship
+thrusterLength: 14
+
+category: effect
+
+requirements: [
+  copper/6000
+]
+
+research: {
+  parent: power-xfer
+  requirements: [
+    copper/12000
+  ]
+}
