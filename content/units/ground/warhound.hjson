@@ -56,6 +56,16 @@ weapons: [
   }
 ]
 
+
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 6000
+    reload: 60
+    range: 64
+  }
+]
+
 research: {
   parent: mass-assembler
   requirements: [
