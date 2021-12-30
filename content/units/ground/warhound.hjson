@@ -1,54 +1,35 @@
-type: flying
-name: FL4GSH1P
-description: The flagship of units.
+type: mech
+name: W4RH0UND
+description: Could be awarded the most durable unit in Mindustry.
 
-flying: true
+health: 64000
+armor: 16
 
-speed: 4.5
-accel: 0.12
-drag: 0.12
-rotateSpeed: 12.0
-rotateShooting: true
+speed: 0.6
+drag: 0.4
+rotateSpeed: 6.0
 
-health: 16000
+engineSize: 4
+mechFrontSway: 0.5
+
 lightColor: 00ff00
-
-range: 128
-miningRange: 128
-
-armor: 16.0
-
-maxRange: 256
-
-isCounted: false
-
-commandLimit: 32
-commandRadius: 256
-
-mineTier: 5
-
-itemCapacity: 1000
-ammoCapacity: 1000
-
-buildSpeed: 16.0
-mineSpeed: 32.0
 
 weapons: [
   {
     name: flagship-weapon
-    x: 3
-    y: 0
-    shootY: 6
+    x: 6
+    y: -4
+    shootY: 8
     mirror: true
     rotate: false
     rotateSpeed: 0.0
     recoil: 0
-    reload: 9
+    reload: 10
     shootSound: shoot
     shake: 0
     bullet: {
       type: BasicBulletType
-      damage: 32
+      damage: 16
       lifetime: 32
       speed: 12.5
       status: melting
@@ -73,12 +54,9 @@ weapons: [
   }
 ]
 
-abilities: [
-  {
-    type: RepairFieldAbility
-    amount: 6000
-    reload: 60
-    range: 64
-  }
-]
-
+research: {
+  parent: mass-assembler
+  requirements: [
+    copper/1000
+  ]
+}

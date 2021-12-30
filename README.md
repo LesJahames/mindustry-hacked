@@ -34,3 +34,30 @@ A mod which provides very powerful blocks to Mindustry.
 
 > TODO: Build Item Replicator to accept what item it should make, allowing the player to decide what each Item Replicator should be producing. (Rather than each item being a seperate machine)
 
+### Units
+
+* Mass Assembler (Consumes power and copper to produce very powerful units)
+
+### Cores
+
+* Core: H4CK3D (Durable, 100k of items, 5x5 size, houses one of the most powerful units FL4GSH1P)
+
+> Currently it can be placed on all bases except Nucleus (I'm guessing because that base is also 5x5)
+
+## Unit List
+
+> This list assumes creation by Mass Assembler (Unless Specified)
+
+## Air
+
+* Vector (Fast & Agile, Deadly, but weak compared to the other things in M1NDU5TRY H4CK3D)
+
+## Ground
+
+* Warhound (Slow, Durable, and deals decent damage)
+
+## Special
+
+* FL4GSH1P (This unit is produced by Core: H4CK3D, controlled by player / Builds quickly, Mines very fast, Mines just about everything, Has the ability to repair everything, Durable, Moderately dangerous, Fast & Agile)
+
+> The FL4GSH1P was built to allow players who like fighting, and built for players who also like building & mining.

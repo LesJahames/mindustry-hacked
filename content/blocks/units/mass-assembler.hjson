@@ -1,0 +1,41 @@
+type: UnitFactory
+
+name: M4SS 4SS3MBL3R
+description: Produces H4CK3D units
+
+health: 1500
+size: 2
+
+consumes: {
+  power: 0.7
+}
+
+plans: [
+  {
+    unit: warhound
+    time: 128
+    requirements: [
+      copper/35
+    ]
+  }
+  {
+    unit: vector
+    time: 128
+    requirements: [
+      copper/30
+    ]
+  }
+]
+
+requirements: [
+  copper/400
+]
+
+category: units
+research: {
+  parent: ground-factory
+  requirements: [
+    copper/800
+  ]
+}
+
