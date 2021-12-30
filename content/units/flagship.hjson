@@ -80,5 +80,12 @@ abilities: [
     reload: 60
     range: 64
   }
+  {
+    type: ForceFieldAbility
+    radius: 10
+    regen: 10
+    max: 6000
+    cooldown: 160.0
+  }
 ]
 
