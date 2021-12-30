@@ -56,6 +56,16 @@ weapons: [
   }
 ]
 
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 10
+    regen: 5
+    max: 3000
+    cooldown: 200.0
+  }
+]
+
 research: {
   parent: mass-assembler
   requirements: [
