@@ -12,6 +12,8 @@ rotateSpeed: 6.0
 engineSize: 4
 mechFrontSway: 0.5
 
+canDrown: false
+
 lightColor: 00ff00
 
 weapons: [
