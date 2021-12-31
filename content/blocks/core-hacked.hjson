@@ -2,8 +2,8 @@ type: CoreBlock
 name: Core: H4CK3D
 description: N/A
 
-size: 5
-health: 1000000
+size: 6
+health: 100000
 itemCapacity: 100000
 unitCapModifier: 64
 unitType: flagship
