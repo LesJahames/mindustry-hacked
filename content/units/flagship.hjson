@@ -73,6 +73,7 @@ weapons: [
   }
 ]
 
+/*
 abilities: [
   {
     type: RepairFieldAbility
@@ -88,4 +89,4 @@ abilities: [
     cooldown: 160.0
   }
 ]
-
+*/
