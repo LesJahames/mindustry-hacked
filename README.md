@@ -52,12 +52,18 @@ A mod which provides very powerful blocks to Mindustry.
 
 * Vector (Fast & Agile, Deadly, but weak compared to the other things in M1NDU5TRY H4CK3D)
 
+> V3CT0R is now protected by a shielding
+
 ## Ground
 
 * Warhound (Slow, Durable, and deals decent damage)
+
+> W4RH0UND can now heal units in a range
 
 ## Special
 
 * FL4GSH1P (This unit is produced by Core: H4CK3D, controlled by player / Builds quickly, Mines very fast, Mines just about everything, Has the ability to repair everything, Durable, Moderately dangerous, Fast & Agile)
 
 > The FL4GSH1P was built to allow players who like fighting, and built for players who also like building & mining.
+
+> FL4GSH1P is now protected by a shielding and can heal units in a range. (Currently healing doesn't work :S)
