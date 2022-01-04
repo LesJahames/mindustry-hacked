@@ -56,7 +56,7 @@ weapons: [
   }
 ]
 
-abilities: [
+/* abilities: [
   {
     type: ForceFieldAbility
     radius: 10
@@ -64,7 +64,7 @@ abilities: [
     max: 3000
     cooldown: 200.0
   }
-]
+] */
 
 research: {
   parent: mass-assembler

@@ -2,9 +2,9 @@ type: CoreBlock
 name: Core: H4CK3D
 description: N/A
 
-size: 6
-health: 100000
-itemCapacity: 100000
+size: 9
+health: 750000
+itemCapacity: 250000
 unitCapModifier: 64
 unitType: flagship
 thrusterLength: 14

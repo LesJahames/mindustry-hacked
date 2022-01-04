@@ -40,9 +40,9 @@ A mod which provides very powerful blocks to Mindustry.
 
 ### Cores
 
-* Core: H4CK3D (Durable, 100k of items, 5x5 size, houses one of the most powerful units FL4GSH1P)
+* Core: H4CK3D (Durable 750k of health, 250k of items, 9x9 size, houses one of the most powerful units FL4GSH1P)
 
-> Currently it can be placed on all bases except bases with size of 6x6. (In which pick this core rather than the other else you can't ever get this core placed)
+> Currently it can be placed on all bases except bases with size of 9x9. (Cores of equal size form a collision)
 
 ## Unit List
 
@@ -51,8 +51,6 @@ A mod which provides very powerful blocks to Mindustry.
 ## Air
 
 * Vector (Fast & Agile, Deadly, but weak compared to the other things in M1NDU5TRY H4CK3D)
-
-> V3CT0R is now protected by a shielding
 
 ## Ground
 
@@ -64,6 +62,4 @@ A mod which provides very powerful blocks to Mindustry.
 
 * FL4GSH1P (This unit is produced by Core: H4CK3D, controlled by player / Builds quickly, Mines very fast, Mines just about everything, Has the ability to repair everything, Durable, Moderately dangerous, Fast & Agile)
 
-> The FL4GSH1P was built to allow players who like fighting, and built for players who also like building & mining.
-
-> FL4GSH1P is now protected by a shielding and can heal units in a range. (Currently healing doesn't work :S)
+> The FL4GSH1P was built to allow players who like fighting, and built for players who also like building.
