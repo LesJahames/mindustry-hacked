@@ -42,7 +42,7 @@ A mod which provides very powerful blocks to Mindustry.
 
 * Core: H4CK3D (Durable, 100k of items, 5x5 size, houses one of the most powerful units FL4GSH1P)
 
-> Currently it can be placed on all bases except Nucleus (I'm guessing because that base is also 5x5)
+> Currently it can be placed on all bases except bases with size of 6x6. (In which pick this core rather than the other else you can't ever get this core placed)
 
 ## Unit List
 
