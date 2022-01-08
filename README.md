@@ -30,9 +30,10 @@ A mod which provides very powerful blocks to Mindustry.
 
 ### Crafting
 
-* Item Replicators (Consumes power to produce items, one machine for each item)
+> If you know Java, and wish to help write custom code to allow a single machine to choose what to make please feel free to help out. (PR's will be reviewed and commented on, then possibly merged)
 
-> TODO: Build Item Replicator to accept what item it should make, allowing the player to decide what each Item Replicator should be producing. (Rather than each item being a seperate machine)
+* Item Replicators (Consumes power to produce items, one machine for each item)
+* Liquid Replicators (Consumes power to produce liquids, one machine for each liquid)
 
 ### Units
 
@@ -42,7 +43,7 @@ A mod which provides very powerful blocks to Mindustry.
 
 * Core: H4CK3D (Durable 750k of health, 250k of items, 9x9 size, houses one of the most powerful units FL4GSH1P)
 
-> Currently it can be placed on all bases except bases with size of 9x9. (Cores of equal size form a collision)
+> Currently it can be placed on all bases except bases with size of 9x9. (Cores of equal size form a collision, place this one down first so you get this core rather than the other 9x9 core, since this core was made to have subtaintially advantages)
 
 ## Unit List
 
@@ -60,6 +61,7 @@ A mod which provides very powerful blocks to Mindustry.
 
 ## Special
 
-* FL4GSH1P (This unit is produced by Core: H4CK3D, controlled by player / Builds quickly, Mines very fast, Mines just about everything, Has the ability to repair everything, Durable, Moderately dangerous, Fast & Agile)
+* FL4GSH1P (This unit is produced by Core: H4CK3D, controlled by player / Builds quickly, Mines very fast, Mines just about everything, Durable, Moderately dangerous, Fast & Agile)
 
 > The FL4GSH1P was built to allow players who like fighting, and built for players who also like building.
+
