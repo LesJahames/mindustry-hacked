@@ -52,7 +52,8 @@ ammoTypes: {
     damage: 24
     speed: 12
     lifetime: 60
-    status: freezing
+    status: unmoving // Lockdown effect
+    statusDuration: 1440.0 // Triple Length
     drag: 0.01
     orbSize: 2
     puddleSize: 3
