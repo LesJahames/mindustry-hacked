@@ -9,7 +9,7 @@ A mod which provides very powerful blocks to Mindustry.
 * Micro Duo (Super range, high damage, targets all enemies)
 * FL00D (Super range, special effects based on what liquid is used, targets all enemies, specialized ammo which bypasses most defensive stuff) \*
 
-\* FL00D can bypass shields, not be reflected, it's bullets don't get shot down by point defenses. (Water = Healing+Push, Oil = SplashDmg+BonusDmgAgainstBuildings, Cryofluid = Lockdown, Slag = StartsFire+HighIncendChance+MostDmg)
+\* FL00D can bypass shields, not be reflected, it's bullets don't get shot down by point defenses. (Water = Healing+Push, Oil = SplashDmg+BonusDmgAgainstBuildings, Cryofluid = L0CKD0WN, Slag = StartsFire+HighIncendChance+MostDmg)
 
 ### Drills
 
@@ -67,4 +67,16 @@ A mod which provides very powerful blocks to Mindustry.
 * FL4GSH1P (This unit is produced by Core: H4CK3D, controlled by player / Builds quickly, Mines very fast, Mines just about everything, Durable, Moderately dangerous, Fast & Agile)
 
 > The FL4GSH1P was built to allow players who like fighting, and built for players who also like building.
+
+## Status Effects
+
+## L0CKD0WN
+
+This effect causes a enemy unit to almost be crippled. (It also has a 25% chance of being applied, this is actually 10% more than the default for effects)
+
+What it does:
+
+* Sets movement speed to 0% (immobilizes)
+* Sets build speed to 0% (no building)
+* Disables weapons systems (no counter attacks)
 
