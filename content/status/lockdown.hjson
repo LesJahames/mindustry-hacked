@@ -1,0 +1,17 @@
+// type: Status
+name: L0CKD0WN
+description: Immobilizes the unit, and disables it's weapons
+
+// No movement
+speedMultiplier: 0.0
+// Prevent Building
+buildSpeedMultiplier: 0.0
+// Bye Bye Guns
+disarm: true
+
+// 25% chance to occur (Very High)
+effectChance: 0.25
+
+// RGBA, Green
+color: 00ff00ff
+
