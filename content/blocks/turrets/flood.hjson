@@ -1,0 +1,92 @@
+type: LiquidTurret
+name: FL00D
+description: It rained 40 days and 40 nights.
+size: 1
+health: 800
+reloadTime: 5
+inaccuracy: 1
+range: 460
+rotateSpeed: 20
+recoilAmount: 0
+liquidCapacity: 50
+targetGround: true
+targetAir: true
+shootEffect: shootLiquid
+ammoTypes: {
+  water: { // Healing Beam (As part of a weapon)
+    type: LiquidBulletType
+    damage: 12
+    speed: 12
+    healPercent: 2
+    impact: true
+    knockback: 3.2 // Stay away from me
+    lifetime: 60
+    drag: 0.01
+    orbSize: 2
+    puddleSize: 3
+    liquid: water
+    ammoMultiplier: 5.0
+    hittable: false // Nope, Anti-Defensives won't work
+    reflectable: false // Nope, Reflective tech won't work
+    absorbable: false // Nope, It like goes thru it.
+  }
+  oil: { // Splash damage (Explosive)
+    type: LiquidBulletType
+    damage: 32
+    speed: 12
+    lifetime: 60
+    splashDamage: 48.0
+    splashDamageRadius: 32.0
+    drag: 0.01
+    orbSize: 2
+    puddleSize: 3
+    liquid: oil
+    ammoMultiplier: 5.0
+    buildingDamageMultiplier: 10.0 // Great for buildings
+    hittable: false // Nope, Anti-Defensives won't work
+    reflectable: false // Nope, Reflective tech won't work
+    absorbable: false // Nope, It like goes thru it.
+  }
+  cryofluid: { // Cool... ugh
+    type: LiquidBulletType
+    damage: 24
+    speed: 12
+    lifetime: 60
+    status: freezing
+    drag: 0.01
+    orbSize: 2
+    puddleSize: 3
+    liquid: cryofluid
+    ammoMultiplier: 5.0
+    hittable: false // Nope, Anti-Defensives won't work
+    reflectable: false // Nope, Reflective tech won't work
+    absorbable: false // Nope, It like goes thru it.
+  }
+  slag: { // Fire! Fire! Fire!
+    type: LiquidBulletType
+    damage: 48
+    speed: 12
+    lifetime: 60
+    makeFire: true
+    incendChance: 1.0
+    drag: 0.01
+    orbSize: 2
+    puddleSize: 3
+    liquid: slag
+    ammoMultiplier: 5.0
+    hittable: false // Nope, Anti-Defensives won't work
+    reflectable: false // Nope, Reflective tech won't work
+    absorbable: false // Nope, It like goes thru it.
+  }
+}
+requirements: [
+  copper/300
+]
+category: turret
+research: {
+  parent: micro-duo
+  requirements: [
+    copper/1000
+  ]
+}
+

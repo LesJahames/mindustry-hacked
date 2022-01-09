@@ -17,7 +17,7 @@ requirements: [
 category: crafting
 outputLiquid: cryofluid/1
 research: {
-  parent: item-replicator-copper
+  parent: item-replicator-scrap
   requirements: [
     copper/150
   ]

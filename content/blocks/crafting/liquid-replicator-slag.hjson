@@ -1,5 +1,5 @@
 type: genericCrafter
-craftTime: 16
+craftTime: 12
 name: Liquid Replicator (Slag)
 description: Given power input, produces 1 unit of Slag.
 
@@ -17,7 +17,7 @@ requirements: [
 category: crafting
 outputLiquid: slag/1
 research: {
-  parent: item-replicator-copper
+  parent: item-replicator-scrap
   requirements: [
     copper/150
   ]

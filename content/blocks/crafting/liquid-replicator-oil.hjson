@@ -1,5 +1,5 @@
 type: genericCrafter
-craftTime: 16
+craftTime: 14
 name: Liquid Replicator (Oil)
 description: Given power input, produces 1 unit of oil.
 
@@ -17,7 +17,7 @@ requirements: [
 category: crafting
 outputLiquid: oil/1
 research: {
-  parent: item-replicator-copper
+  parent: item-replicator-scrap
   requirements: [
     copper/150
   ]

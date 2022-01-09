@@ -7,6 +7,9 @@ A mod which provides very powerful blocks to Mindustry.
 ### Turrets
 
 * Micro Duo (Super range, high damage, targets all enemies)
+* FL00D (Super range, special effects based on what liquid is used, targets all enemies, specialized ammo which bypasses most defensive stuff) \*
+
+\* FL00D can bypass shields, not be reflected, it's bullets don't get shot down by point defenses. (Water = Healing+Push, Oil = SplashDmg+BonusDmgAgainstBuildings, Cryofluid = Freezing, Slag = StartsFire+HighIncendChance+MostDmg)
 
 ### Drills
 
