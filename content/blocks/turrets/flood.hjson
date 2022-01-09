@@ -52,7 +52,9 @@ ammoTypes: {
     damage: 24
     speed: 12
     lifetime: 60
-    status: unmoving // Lockdown effect
+    // I think I can't have a comment under here,
+    // because it's attempting to get a string.
+    status: lockdown
     statusDuration: 1440.0 // Triple Length
     drag: 0.01
     orbSize: 2
@@ -68,6 +70,9 @@ ammoTypes: {
     damage: 48
     speed: 12
     lifetime: 60
+    // Burn with me
+    status: burning
+    statusDuration: 1440.0 // Triple Length
     makeFire: true
     incendChance: 1.0
     drag: 0.01
