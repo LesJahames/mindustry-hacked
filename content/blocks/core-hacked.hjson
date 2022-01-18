@@ -5,7 +5,7 @@ description: N/A
 size: 9
 health: 750000
 itemCapacity: 250000
-unitCapModifier: 64
+unitCapModifier: 128
 unitType: flagship
 thrusterLength: 14
 
