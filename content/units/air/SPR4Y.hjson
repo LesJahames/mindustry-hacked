@@ -1,0 +1,72 @@
+type: flying
+
+name: SPR4Y
+description: Quantity over quality will work only sometimes.
+
+flying: true
+
+speed: 64
+accel: 0.12
+drag: 0.12
+rotateSpeed: 12.0
+rotateShooting: true
+
+health: 6400
+armor: 0
+
+lightColor: 00ff00
+
+weapons: [
+  {
+    name: flagship-weapon
+    x: 3
+    y: -2
+    shootY: 8
+    mirror: true
+    rotate: false
+    rotateSpeed: 0.0
+    recoil: 0
+    reload: 1000
+    shootSound: shoot
+    shake: 0
+    bullet: {
+      type: BasicBulletType
+      damage: 6
+      lifetime: 32
+      speed: 12.5
+      status: melting
+      lightColor: 00ff00
+      incendChance: 1.0
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 1
+        lifetime: 15
+        length: 10
+        strokeFrom: 1
+        strokeTo: 0
+        lenFrom: 4
+        lenTo: 0
+        colorFrom: ffffff
+        colorTo: 00ff00
+      }
+    }
+  }
+]
+
+/* abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 10
+    regen: 5
+    max: 3000
+    cooldown: 200.0
+  }
+] */
+
+research: {
+  parent: mass-assembler
+  requirements: [
+    copper/1200
+  ]
+}
