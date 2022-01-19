@@ -43,7 +43,7 @@ weapons: [
     rotate: false
     rotateSpeed: 0.0
     recoil: 0
-    reload: 64
+    reload: 1
     shootSound: shoot
     shake: 0
     bullet: {
