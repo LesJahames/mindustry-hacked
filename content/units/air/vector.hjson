@@ -5,13 +5,13 @@ description: Fast, Agile, and quite Deadly.
 
 flying: true
 
-speed: 4.5
+speed: 512
 accel: 0.12
 drag: 0.12
 rotateSpeed: 12.0
 rotateShooting: true
 
-health: 640
+health: 6400
 armor: 0
 
 lightColor: 00ff00
