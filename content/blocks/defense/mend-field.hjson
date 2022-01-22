@@ -1,27 +1,27 @@
 type: MendProjector
-name: Mend Field
+name: M3ND F13LD
 description: You have buildings that get damaged regularly, well not anymore.
 
 health: 1000
 size: 1
 
-reload: 16
-healPercent: 25
-range: 256
+reload: 1
+healPercent: 100
+range: 512
 
-phaseBoost: 15
-phaseRangeBoost: 64
+phaseBoost: 256
+phaseRangeBoost: 512
 phaseColor: 00ff00
 
 requirements: [
-  copper/500
+  copper/1
 ]
 
 category: effect
 research: {
   parent: hex-field
   requirements: [
-    copper/1000
+    copper/1
   ]
 }
 

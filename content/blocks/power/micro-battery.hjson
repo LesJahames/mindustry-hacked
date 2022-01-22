@@ -1,20 +1,20 @@
 type: Battery
-name: Micro Battery
+name: M1CR0 B4TT3RY
 description: A high capacity battery
 size: 1
 health: 500
 hasPower: true
 outputsPower: true
 consumes: {
-  powerBuffered: 20000
+  powerBuffered: 1000000 // 1m
 }
 requirements: [
-  copper/400
+  copper/1
 ]
 category: power
 research: {
   parent: power-xfer
   requirements: [
-    copper/1000
+    copper/1
   ]
 }

@@ -7,35 +7,35 @@ health: 1500
 size: 2
 
 consumes: {
-  power: 0.7
+  power: 0.1
 }
 
 plans: [
   {
     unit: warhound
-    time: 128
+    time: 64
     requirements: [
-      copper/35
+      copper/1
     ]
   }
   {
     unit: vector
-    time: 128
+    time: 64
     requirements: [
-      copper/30
+      copper/1
     ]
   }
 ]
 
 requirements: [
-  copper/400
+  copper/1
 ]
 
 category: units
 research: {
   parent: ground-factory
   requirements: [
-    copper/800
+    copper/1
   ]
 }
 

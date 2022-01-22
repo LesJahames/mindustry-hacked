@@ -25,7 +25,7 @@ isCounted: false
 commandLimit: 32
 commandRadius: 256
 
-mineTier: 5
+mineTier: 99
 
 itemCapacity: 1000
 ammoCapacity: 1000

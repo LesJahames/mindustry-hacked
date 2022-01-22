@@ -2,11 +2,13 @@
 
 A mod which provides very powerful blocks to Mindustry.
 
+Thank you to:
+- TheGamer1002 (For turning this mod into 101% Hack)
+
 ## Block List
 
 ### Turrets
 
-* Micro Duo (Super range, high damage, targets all enemies)
 * FL00D (Super range, special effects based on what liquid is used, targets all enemies, specialized ammo which bypasses most defensive stuff) \*
 
 \* FL00D can bypass shields, not be reflected, it's bullets don't get shot down by point defenses. (Water = Healing+Push, Oil = SplashDmg+BonusDmgAgainstBuildings, Cryofluid = L0CKD0WN, Slag = StartsFire+HighIncendChance+MostDmg)
@@ -17,8 +19,8 @@ A mod which provides very powerful blocks to Mindustry.
 
 ### Power
 
-* Solar Array (Provides up to 1k of power via solar energy)
-* Micro Battery (Provides up to 20k of power yet keeps the 1x1 size)
+* Power Infinity (Provides a lot of power infinitively)
+* Micro Battery (Provides up to 1m of power yet keeps the 1x1 size)
 * Power Xfer (Laser Power Node with 64 connections and 128 range)
 
 ### Defense
@@ -33,10 +35,9 @@ A mod which provides very powerful blocks to Mindustry.
 
 ### Crafting
 
-> If you know Java, and wish to help write custom code to allow a single machine to choose what to make please feel free to help out. (PR's will be reviewed and commented on, then possibly merged)
 
-* Item Replicators (Consumes power to produce items, one machine for each item)
-* Liquid Replicators (Consumes power to produce liquids, one machine for each liquid)
+* Item Replicator (Consumes power to produce items, one machine to rule them all)
+* Liquid Replicator (Consumes power to produce liquids, one machine to rule them all)
 
 ### Units
 

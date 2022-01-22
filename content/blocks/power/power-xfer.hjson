@@ -1,24 +1,24 @@
 type: PowerNode
-name: Power Xfer
+name: P0W3R XF3R
 description: Large area of laser coverage, many connections.
 
 health: 400
 size: 1
 
-laserRange: 256
+laserRange: 512
 laserColor1: 00ff00
 laserColor2: 00bb00
-maxNodes: 64
+maxNodes: 1024
 
 requirements: [
-  copper/200
+  copper/1
 ]
 
 category: power
 research: {
   parent: power-node
   requirements: [
-    copper/150
+    copper/1
   ]
 }
 

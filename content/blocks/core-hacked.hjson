@@ -1,6 +1,6 @@
 type: CoreBlock
 name: Core: H4CK3D
-description: N/A
+description: Home of the l33t
 
 size: 9
 health: 750000
@@ -12,12 +12,12 @@ thrusterLength: 14
 category: effect
 
 requirements: [
-  copper/4000
+  copper/10
 ]
 
 research: {
   parent: power-xfer
   requirements: [
-    copper/12000
+    copper/10
   ]
 }

@@ -1,0 +1,20 @@
+type: ItemSource
+
+name: IT3M R3PL1C4T0R
+description: Produces items for free
+
+health: 125
+size: 1
+
+requirements: [
+  copper/1
+]
+
+category: crafting
+research: {
+  parent: power-xfer
+  requirements: [
+    copper/1
+  ]
+}
+

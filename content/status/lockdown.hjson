@@ -12,6 +12,9 @@ disarm: true
 // 25% chance to occur (Very High)
 effectChance: 0.25
 
+// Last forever
+permanent: true
+
 // RGBA, Green
 color: 00ff00ff
 
