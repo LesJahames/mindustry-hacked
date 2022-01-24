@@ -15,7 +15,7 @@ shootEffect: shootLiquid
 ammoTypes: {
   water: { // Healing Beam (As part of a weapon)
     type: LiquidBulletType
-    damage: 512
+    damage: 0.1
     speed: 512
     healPercent: 100
     impact: true
@@ -49,7 +49,7 @@ ammoTypes: {
   }
   cryofluid: { // Cool... ugh
     type: LiquidBulletType
-    damage: 512
+    damage: 0.1
     speed: 512
     lifetime: 512
     // I think I can't have a comment under here,
