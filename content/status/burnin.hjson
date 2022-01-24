@@ -1,13 +1,9 @@
 name: BURN1N
 description: It's h0t
 
-damage: 1024.0
-disarm: true
+damage: 24.0
 speedMultiplier: 0.9
 buildSpeedMultiplier: 0.9
 effectChance: 1.0
 color: 00ff00ff
-
-// Last forever
-permanent: true
 

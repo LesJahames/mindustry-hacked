@@ -11,7 +11,7 @@ Thank you to:
 
 * FL00D (Super range, special effects based on what liquid is used, targets all enemies, specialized ammo which bypasses most defensive stuff) \*
 
-\* FL00D can bypass shields, not be reflected, it's bullets don't get shot down by point defenses. (Water = Healing+Push, Oil = SplashDmg+BonusDmgAgainstBuildings, Cryofluid = L0CKD0WN, Slag = StartsFire+HighIncendChance+MostDmg)
+\* FL00D can bypass shields, not be reflected, it's bullets don't get shot down by point defenses. (Water = Healing+Push, Oil = SplashDmg+BonusDmgAgainstBuildings, Cryofluid = L0CKD0WN, Slag = StartsFire+HighIncendChance+MostDmg+BURN1N)
 
 ### Drills
 
@@ -19,9 +19,9 @@ Thank you to:
 
 ### Power
 
-* Power Infinity (Provides a lot of power infinitively)
+* Power Infinity (Provides a lot of power infinitively, 6m power per second)
 * Micro Battery (Provides up to 1m of power yet keeps the 1x1 size)
-* Power Xfer (Laser Power Node with 64 connections and 128 range)
+* Power Xfer (Laser Power Node with 128 connections and long range)
 
 ### Defense
 
@@ -65,7 +65,7 @@ Thank you to:
 
 ## Special
 
-* FL4GSH1P (This unit is produced by Core: H4CK3D, controlled by player / Builds quickly, Mines very fast, Mines just about everything, Durable, Moderately dangerous, Fast & Agile)
+* FL4GSH1P (This unit is produced by Core: H4CK3D, controlled by player / Builds quickly, Mines very fast, Mines just about everything, Durable, Dangerous, Fast & Agile)
 
 > The FL4GSH1P was built to allow players who like fighting, and built for players who also like building.
 
@@ -87,8 +87,7 @@ This effect causes a enemy unit to die within a minimal time. (It has a 100% cha
 
 What it does:
 
-* Deals around 61k of damager per second (damage)
-* Disables weapons systems (no counter attacks)
+* Deals damager over time (DoT)
 * Sets movement speed to 90% (slight slow down)
-* Sets health to 90% (slight health reduction)
+* Sets build speed to 90% (slight build speed reduction)
 
