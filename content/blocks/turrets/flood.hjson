@@ -15,11 +15,11 @@ shootEffect: shootLiquid
 ammoTypes: {
   water: { // Healing Beam (As part of a weapon)
     type: LiquidBulletType
-    damage: 2
+    damage: 8
     speed: 12
-    healPercent: 4
+    healPercent: 40
     impact: true
-    knockback: 6 // Stay away from me
+    knockback: 24 // Stay away from me
     lifetime: 60
     drag: 0.01
     orbSize: 2
@@ -32,24 +32,24 @@ ammoTypes: {
   }
   oil: { // Splash damage (Explosive)
     type: LiquidBulletType
-    damage: 32
+    damage: 64
     speed: 12
     lifetime: 60
-    splashDamage: 48.0
-    splashDamageRadius: 64.0
+    splashDamage: 128.0
+    splashDamageRadius: 128.0
     drag: 0.01
     orbSize: 2
     puddleSize: 3
     liquid: oil
     ammoMultiplier: 5.0
-    buildingDamageMultiplier: 30.0 // Great for buildings
+    buildingDamageMultiplier: 60.0 // Great for buildings
     hittable: false // Nope, Anti-Defensives won't work
     reflectable: false // Nope, Reflective tech won't work
     absorbable: false // Nope, It like goes thru it.
   }
   cryofluid: { // Cool... ugh
     type: LiquidBulletType
-    damage: 6
+    damage: 12
     speed: 12
     lifetime: 60
     // I think I can't have a comment under here,
@@ -67,7 +67,7 @@ ammoTypes: {
   }
   slag: { // Fire! Fire! Fire!
     type: LiquidBulletType
-    damage: 48
+    damage: 128
     speed: 12
     lifetime: 60
     // Burn with me

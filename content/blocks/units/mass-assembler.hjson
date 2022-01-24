@@ -13,14 +13,14 @@ consumes: {
 plans: [
   {
     unit: warhound
-    time: 64
+    time: 1
     requirements: [
       copper/1
     ]
   }
   {
     unit: vector
-    time: 64
+    time: 1
     requirements: [
       copper/1
     ]
