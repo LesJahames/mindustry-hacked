@@ -1,6 +1,8 @@
-# M1N3DU5TRY H4CK3D
+# M1N3DU5TRY H4CK3D 0P
 
 A mod which provides very powerful blocks to Mindustry.
+
+**Warning: This is the 0P Branch!**
 
 Thank you to:
 - TheGamer1002 (For turning this mod into 101% Hack)
@@ -11,7 +13,7 @@ Thank you to:
 
 * FL00D (Super range, special effects based on what liquid is used, targets all enemies, specialized ammo which bypasses most defensive stuff) \*
 
-\* FL00D can bypass shields, not be reflected, it's bullets don't get shot down by point defenses. (Water = Healing+Push, Oil = SplashDmg+BonusDmgAgainstBuildings, Cryofluid = L0CKD0WN, Slag = StartsFire+HighIncendChance+MostDmg)
+\* FL00D can bypass shields, not be reflected, it's bullets don't get shot down by point defenses. (Water = Healing+Push, Oil = SplashDmg+BonusDmgAgainstBuildings, Cryofluid = L0CKD0WN, Slag = StartsFire+HighIncendChance+MostDmg+BURN1N)
 
 ### Drills
 
