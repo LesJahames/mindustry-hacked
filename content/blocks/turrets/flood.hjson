@@ -86,13 +86,13 @@ ammoTypes: {
   }
 }
 requirements: [
-  copper/1
+  copper/650
 ]
 category: turret
 research: {
   parent: duo
   requirements: [
-    copper/1
+    copper/6000
   ]
 }
 

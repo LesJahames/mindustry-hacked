@@ -9,12 +9,12 @@ consumes: {
   powerBuffered: 1000000 // 1m
 }
 requirements: [
-  copper/1
+  copper/110
 ]
 category: power
 research: {
   parent: power-xfer
   requirements: [
-    copper/1
+    copper/2000
   ]
 }

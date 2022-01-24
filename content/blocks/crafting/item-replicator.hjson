@@ -7,14 +7,14 @@ health: 125
 size: 1
 
 requirements: [
-  copper/1
+  copper/200
 ]
 
 category: crafting
 research: {
   parent: power-xfer
   requirements: [
-    copper/1
+    copper/1000
   ]
 }
 

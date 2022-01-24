@@ -10,14 +10,14 @@ repairSpeed: 512.0
 powerUse: 0.1
 
 requirements: [
-  copper/1
+  copper/400
 ]
 
 category: units
 research: {
   parent: mend-field
   requirements: [
-    copper/1
+    copper/4000
   ]
 }
 

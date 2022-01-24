@@ -12,12 +12,12 @@ thrusterLength: 14
 category: effect
 
 requirements: [
-  copper/10
+  copper/4000
 ]
 
 research: {
   parent: power-xfer
   requirements: [
-    copper/10
+    copper/10000
   ]
 }

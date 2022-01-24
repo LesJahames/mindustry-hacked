@@ -13,29 +13,29 @@ consumes: {
 plans: [
   {
     unit: warhound
-    time: 64
+    time: 128
     requirements: [
-      copper/1
+      copper/30
     ]
   }
   {
     unit: vector
-    time: 64
+    time: 112
     requirements: [
-      copper/1
+      copper/45
     ]
   }
 ]
 
 requirements: [
-  copper/1
+  copper/450
 ]
 
 category: units
 research: {
   parent: ground-factory
   requirements: [
-    copper/1
+    copper/5000
   ]
 }
 
