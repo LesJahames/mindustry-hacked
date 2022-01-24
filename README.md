@@ -73,11 +73,22 @@ Thank you to:
 
 ## L0CKD0WN
 
-This effect causes a enemy unit to almost be crippled. (It also has a 25% chance of being applied, this is actually 10% more than the default for effects)
+This effect causes a enemy unit to almost be crippled. (It also has a 100% chance of being applied)
 
 What it does:
 
 * Sets movement speed to 0% (immobilizes)
 * Sets build speed to 0% (no building)
 * Disables weapons systems (no counter attacks)
+
+## BURN1N
+
+This effect causes a enemy unit to die within a minimal time. (It has a 100% chance of being applied)
+
+What it does:
+
+* Deals around 61k of damager per second (damage)
+* Disables weapons systems (no counter attacks)
+* Sets movement speed to 90% (slight slow down)
+* Sets health to 90% (slight health reduction)
 
