@@ -14,7 +14,6 @@ health: 16000
 lightColor: 00ff00
 
 range: 128
-miningRange: 128
 
 armor: 16.0
 
@@ -23,7 +22,6 @@ maxRange: 256
 isCounted: false
 
 commandLimit: 32
-commandRadius: 256
 
 mineTier: 99
 

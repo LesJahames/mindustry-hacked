@@ -14,14 +14,14 @@ laserColor2: 00bb00
 powerProduction: 100000.0
 
 requirements: [
-  copper/150
+  hack-circuit/175
 ]
 
 category: power
 research: {
   parent: power-xfer
   requirements: [
-    copper/1450
+    hack-circuit/1450
   ]
 }
 

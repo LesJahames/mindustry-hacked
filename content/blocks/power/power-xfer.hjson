@@ -11,14 +11,14 @@ laserColor2: 00bb00
 maxNodes: 1024
 
 requirements: [
-  copper/30
+  hack-circuit/35
 ]
 
 category: power
 research: {
   parent: power-node
   requirements: [
-    copper/300
+    hack-circuit/300
   ]
 }
 

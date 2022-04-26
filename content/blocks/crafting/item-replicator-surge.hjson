@@ -1,0 +1,22 @@
+type: genericCrafter
+craftTime: 24
+name: Item Replicator (Surge Alloy)
+description: Given power input, produces 1 Surge Alloy.
+
+health: 125
+size: 1
+hasPower: true
+consumes: {
+  power: 1.8
+}
+requirements: [
+  hack-circuit/450
+]
+category: crafting
+outputItem: surge-alloy/1
+research: {
+  parent: item-replicator-copper
+  requirements: [
+    hack-circuit/2000
+  ]
+}

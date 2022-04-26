@@ -1,0 +1,9 @@
+name: H4CK C1RCU1T
+description: Rather expensive resource produced by converting copper with energy into a advanced circuit used in M1N3DU5TRY H4CK3D.
+
+color: 00ff00
+cost: 3
+
+research: core-shard
+alwaysUnlocked: true
+

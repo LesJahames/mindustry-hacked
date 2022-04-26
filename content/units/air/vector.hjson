@@ -67,6 +67,6 @@ weapons: [
 research: {
   parent: mass-assembler
   requirements: [
-    copper/1200
+    hack-circuit/2200
   ]
 }

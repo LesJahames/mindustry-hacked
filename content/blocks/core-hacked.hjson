@@ -7,17 +7,16 @@ health: 750000
 itemCapacity: 250000
 unitCapModifier: 128
 unitType: flagship
-thrusterLength: 14
 
 category: effect
 
 requirements: [
-  copper/4000
+  hack-circuit/4000
 ]
 
 research: {
   parent: power-xfer
   requirements: [
-    copper/10000
+    hack-circuit/10000
   ]
 }

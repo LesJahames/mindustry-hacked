@@ -7,7 +7,12 @@ health: 1000
 speed: 0.4
 displayedSpeed: 6
 requirements: [
-  copper/10
+  hack-circuit/10
 ]
 category: distribution
-research: conveyor
+research: {
+  parent: conveyor
+  requirements: [
+    hack-circuit/100
+  ]
+}

@@ -1,0 +1,22 @@
+type: genericCrafter
+craftTime: 24
+name: Item Replicator (Plastanium)
+description: Given power input, produces 1 plastanium.
+
+health: 125
+size: 1
+hasPower: true
+consumes: {
+  power: 1.8
+}
+requirements: [
+  hack-circuit/400
+]
+category: crafting
+outputItem: plastanium/1
+research: {
+  parent: item-replicator-copper
+  requirements: [
+    hack-circuit/2000
+  ]
+}

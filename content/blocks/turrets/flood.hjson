@@ -13,19 +13,19 @@ targetGround: true
 targetAir: true
 shootEffect: shootLiquid
 ammoTypes: {
-  water: { // Healing Beam (As part of a weapon)
+  water: { // Healing Beam (Plus knockback)
     type: LiquidBulletType
     damage: 2
     speed: 12
     healPercent: 4
     impact: true
-    knockback: 6 // Stay away from me
+    knockback: 6
     lifetime: 60
-    drag: 0.01
+    drag: 0.02
     orbSize: 2
     puddleSize: 3
     liquid: water
-    ammoMultiplier: 5.0
+    ammoMultiplier: 1.0
     hittable: false // Nope, Anti-Defensives won't work
     reflectable: false // Nope, Reflective tech won't work
     absorbable: false // Nope, It like goes thru it.
@@ -38,29 +38,27 @@ ammoTypes: {
     splashDamage: 48.0
     splashDamageRadius: 64.0
     drag: 0.01
-    orbSize: 2
+    orbSize: 3
     puddleSize: 3
     liquid: oil
-    ammoMultiplier: 5.0
+    ammoMultiplier: 0.5
     buildingDamageMultiplier: 30.0 // Great for buildings
     hittable: false // Nope, Anti-Defensives won't work
     reflectable: false // Nope, Reflective tech won't work
     absorbable: false // Nope, It like goes thru it.
   }
-  cryofluid: { // Cool... ugh
+  cryofluid: { // Cool (With lockdown)
     type: LiquidBulletType
     damage: 6
     speed: 12
     lifetime: 60
-    // I think I can't have a comment under here,
-    // because it's attempting to get a string.
     status: lockdown
     statusDuration: 1440.0
-    drag: 0.01
+    drag: 0.02
     orbSize: 2
     puddleSize: 3
     liquid: cryofluid
-    ammoMultiplier: 5.0
+    ammoMultiplier: 2.0
     hittable: false // Nope, Anti-Defensives won't work
     reflectable: false // Nope, Reflective tech won't work
     absorbable: false // Nope, It like goes thru it.
@@ -70,29 +68,28 @@ ammoTypes: {
     damage: 48
     speed: 12
     lifetime: 60
-    // Burn with me
     status: burnin
     statusDuration: 1440.0
     makeFire: true
     incendChance: 1.0
     drag: 0.01
     orbSize: 2
-    puddleSize: 3
+    puddleSize: 4
     liquid: slag
-    ammoMultiplier: 5.0
+    ammoMultiplier: 1.0
     hittable: false // Nope, Anti-Defensives won't work
     reflectable: false // Nope, Reflective tech won't work
     absorbable: false // Nope, It like goes thru it.
   }
 }
 requirements: [
-  copper/650
+  hack-circuit/600
 ]
 category: turret
 research: {
   parent: duo
   requirements: [
-    copper/6000
+    hack-circuit/2000
   ]
 }
 

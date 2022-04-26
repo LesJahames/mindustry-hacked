@@ -14,14 +14,14 @@ phaseRangeBoost: 512
 phaseColor: 00ff00
 
 requirements: [
-  copper/350
+  hack-circuit/350
 ]
 
 category: effect
 research: {
   parent: hex-field
   requirements: [
-    copper/3500
+    hack-circuit/1500
   ]
 }
 

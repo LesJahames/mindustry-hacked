@@ -1,0 +1,27 @@
+type: genericCrafter
+craftTime: 24
+name: Item Replicator (Hack Circuit)
+description: Given power input and 25 copper, produces 1 H4CK C1CU1T.
+
+health: 125
+size: 1
+hasPower: true
+consumes: {
+  power: 1.3
+  items: {
+    items: [
+      copper/25
+    ]
+  }
+}
+requirements: [
+  copper/2000
+]
+category: crafting
+outputItem: hack-circuit/1
+research: {
+  parent: power-xfer
+  requirements: [
+    copper/4000
+  ]
+}

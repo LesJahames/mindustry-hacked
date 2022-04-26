@@ -1,0 +1,22 @@
+type: genericCrafter
+craftTime: 13
+name: Item Replicator (Scrap)
+description: Given power input, produces 1 scrap.
+
+health: 125
+size: 1
+hasPower: true
+consumes: {
+  power: 1.1
+}
+requirements: [
+  hack-circuit/200
+]
+category: crafting
+outputItem: scrap/1
+research: {
+  parent: item-replicator-copper
+  requirements: [
+    hack-circuit/700
+  ]
+}

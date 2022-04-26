@@ -1,0 +1,22 @@
+type: genericCrafter
+craftTime: 16
+name: Item Replicator (Lead)
+description: Given power input, produces 1 lead.
+
+health: 125
+size: 1
+hasPower: true
+consumes: {
+  power: 1.4
+}
+requirements: [
+  hack-circuit/250
+]
+category: crafting
+outputItem: lead/1
+research: {
+  parent: item-replicator-copper
+  requirements: [
+    hack-circuit/1000
+  ]
+}

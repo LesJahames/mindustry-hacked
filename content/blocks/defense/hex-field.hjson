@@ -18,7 +18,7 @@ consumes: {
   power: 0.1
   items: {
     items: [
-      copper/1
+      hack-circuit/5
     ]
     booster: true
     optional: true
@@ -26,14 +26,13 @@ consumes: {
 }
 
 requirements: [
-  copper/1000
+  hack-circuit/500
 ]
 
 category: effect
-
 research: {
   parent: power-xfer
   requirements: [
-    copper/3000
+    hack-circuit/1000
   ]
 }

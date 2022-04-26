@@ -67,6 +67,6 @@ abilities: [
 research: {
   parent: mass-assembler
   requirements: [
-    copper/1000
+    hack-circuit/1700
   ]
 }
