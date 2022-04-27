@@ -20,7 +20,7 @@ requirements: [
 category: crafting
 outputItem: hack-circuit/1
 research: {
-  parent: power-xfer
+  parent: power-node
   requirements: [
     copper/4000
   ]
