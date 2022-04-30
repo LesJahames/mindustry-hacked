@@ -5,6 +5,7 @@ description: Given power input and 25 copper, produces 1 H4CK C1CU1T.
 
 health: 125
 size: 1
+itemCapacity: 50
 hasPower: true
 consumes: {
   power: 1.3
