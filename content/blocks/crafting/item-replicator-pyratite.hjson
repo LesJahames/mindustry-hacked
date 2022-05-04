@@ -10,13 +10,13 @@ consumes: {
   power: 1.6
 }
 requirements: [
-  hack-circuit/300
+  hack-circuit/100
 ]
 category: crafting
 outputItem: pyratite/1
 research: {
   parent: item-replicator-copper
   requirements: [
-    hack-circuit/1000
+    hack-circuit/100
   ]
 }

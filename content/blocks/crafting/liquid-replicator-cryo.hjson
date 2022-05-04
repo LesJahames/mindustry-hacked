@@ -12,13 +12,13 @@ consumes: {
   power: 1.1
 }
 requirements: [
-  hack-circuit/225
+  hack-circuit/75
 ]
 category: crafting
 outputLiquid: cryofluid/1
 research: {
   parent: item-replicator-scrap
   requirements: [
-    hack-circuit/1500
+    hack-circuit/150
   ]
 }

@@ -10,13 +10,13 @@ consumes: {
   power: 2.0
 }
 requirements: [
-  hack-circuit/550
+  hack-circuit/150
 ]
 category: crafting
 outputItem: thorium/1
 research: {
   parent: item-replicator-copper
   requirements: [
-    hack-circuit/2000
+    hack-circuit/250
   ]
 }

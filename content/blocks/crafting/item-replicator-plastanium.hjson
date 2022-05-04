@@ -10,13 +10,13 @@ consumes: {
   power: 1.8
 }
 requirements: [
-  hack-circuit/400
+  hack-circuit/100
 ]
 category: crafting
 outputItem: plastanium/1
 research: {
   parent: item-replicator-copper
   requirements: [
-    hack-circuit/2000
+    hack-circuit/200
   ]
 }

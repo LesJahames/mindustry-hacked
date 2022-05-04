@@ -14,7 +14,7 @@ phaseRangeBoost: 512
 phaseColor: 00ff00
 
 requirements: [
-  hack-circuit/350
+  hack-circuit/150
 ]
 
 category: effect

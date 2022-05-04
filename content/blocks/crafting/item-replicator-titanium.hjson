@@ -10,13 +10,13 @@ consumes: {
   power: 1.6
 }
 requirements: [
-  hack-circuit/250
+  hack-circuit/125
 ]
 category: crafting
 outputItem: titanium/1
 research: {
   parent: item-replicator-copper
   requirements: [
-    hack-circuit/1000
+    hack-circuit/100
   ]
 }

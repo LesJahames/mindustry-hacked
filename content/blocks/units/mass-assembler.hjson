@@ -15,27 +15,27 @@ plans: [
     unit: warhound
     time: 128
     requirements: [
-      hack-circuit/130
+      hack-circuit/30
     ]
   }
   {
     unit: vector
     time: 112
     requirements: [
-      hack-circuit/245
+      hack-circuit/45
     ]
   }
 ]
 
 requirements: [
-  hack-circuit/450
+  hack-circuit/45
 ]
 
 category: units
 research: {
   parent: ground-factory
   requirements: [
-    hack-circuit/1000
+    hack-circuit/100
   ]
 }
 

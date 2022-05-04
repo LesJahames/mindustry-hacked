@@ -7,7 +7,7 @@ health: 800
 speed: 0.3
 displayedSpeed: 6
 requirements: [
-  copper/15
+  hack-circuit/1
 ]
 category: distribution
 research: {

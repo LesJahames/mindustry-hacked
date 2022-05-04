@@ -83,13 +83,13 @@ ammoTypes: {
   }
 }
 requirements: [
-  hack-circuit/600
+  hack-circuit/140
 ]
 category: turret
 research: {
   parent: duo
   requirements: [
-    hack-circuit/2000
+    hack-circuit/200
   ]
 }
 

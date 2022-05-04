@@ -10,13 +10,13 @@ consumes: {
   power: 1.4
 }
 requirements: [
-  hack-circuit/400
+  hack-circuit/100
 ]
 category: crafting
 outputItem: spore-pod/1
 research: {
   parent: item-replicator-copper
   requirements: [
-    hack-circuit/1000
+    hack-circuit/200
   ]
 }

@@ -12,13 +12,13 @@ consumes: {
   power: 1.1
 }
 requirements: [
-  copper/400
+  copper/75
 ]
 category: crafting
 outputLiquid: oil/1
 research: {
   parent: item-replicator-scrap
   requirements: [
-    hack-circuit/1500
+    hack-circuit/150
   ]
 }

@@ -12,13 +12,13 @@ consumes: {
   power: 1.1
 }
 requirements: [
-  hack-circuit/300
+  hack-circuit/65
 ]
 category: crafting
 outputLiquid: water/1
 research: {
   parent: item-replicator-scrap
   requirements: [
-    hack-circuit/1500
+    hack-circuit/150
   ]
 }

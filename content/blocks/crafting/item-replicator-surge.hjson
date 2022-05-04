@@ -10,13 +10,13 @@ consumes: {
   power: 1.8
 }
 requirements: [
-  hack-circuit/450
+  hack-circuit/150
 ]
 category: crafting
 outputItem: surge-alloy/1
 research: {
   parent: item-replicator-copper
   requirements: [
-    hack-circuit/2000
+    hack-circuit/200
   ]
 }

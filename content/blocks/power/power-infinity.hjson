@@ -21,7 +21,7 @@ category: power
 research: {
   parent: power-xfer
   requirements: [
-    hack-circuit/1450
+    hack-circuit/450
   ]
 }
 

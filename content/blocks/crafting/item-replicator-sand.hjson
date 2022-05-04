@@ -10,13 +10,13 @@ consumes: {
   power: 1.0
 }
 requirements: [
-  hack-circuit/250
+  hack-circuit/150
 ]
 category: crafting
 outputItem: sand/1
 research: {
   parent: item-replicator-copper
   requirements: [
-    hack-circuit/700
+    hack-circuit/300
   ]
 }

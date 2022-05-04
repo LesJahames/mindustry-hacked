@@ -7,7 +7,7 @@ health: 1000
 speed: 0.4
 displayedSpeed: 6
 requirements: [
-  hack-circuit/10
+  hack-circuit/1
 ]
 category: distribution
 research: {

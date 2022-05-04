@@ -10,7 +10,7 @@ repairSpeed: 512.0
 powerUse: 0.1
 
 requirements: [
-  hack-circuit/250
+  hack-circuit/125
 ]
 
 category: units

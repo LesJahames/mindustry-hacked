@@ -11,12 +11,12 @@ unitType: flagship
 category: effect
 
 requirements: [
-  hack-circuit/4000
+  hack-circuit/400
 ]
 
 research: {
   parent: power-xfer
   requirements: [
-    hack-circuit/10000
+    hack-circuit/1000
   ]
 }
