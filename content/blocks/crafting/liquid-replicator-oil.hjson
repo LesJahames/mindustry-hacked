@@ -12,7 +12,7 @@ consumes: {
   power: 1.1
 }
 requirements: [
-  copper/75
+  hack-circuit/75
 ]
 category: crafting
 outputLiquid: oil/1
