@@ -1,7 +1,7 @@
 type: genericCrafter
-craftTime: 24
+craftTime: 21
 name: H4CK F4CT0RY
-description: Given 25 copper, produces 1 H4CK C1CU1T.
+description: Given 5 copper and power, produces 1 H4CK C1CU1T.
 
 health: 125
 size: 1
@@ -13,6 +13,7 @@ consumes: {
       copper/5
     ]
   }
+  power: 0.4
 }
 requirements: [
   copper/275
