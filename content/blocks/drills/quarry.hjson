@@ -2,20 +2,20 @@ type: Drill
 name: QU4RRY
 description: High yield drill, just costs H4CK C1RCU1T5.
 
-health: 1000
+health: 300
 size: 2
 
 tier: 10
 drillTime: 175
-rotateSpeed: 3.5
+rotateSpeed: 3.6
 itemCapacity: 100
 requirements: [
-  hack-circuit/200
+  hack-circuit/40
 ]
 category: production
 research: {
   parent: mechanical-drill
   requirements: [
-    hack-circuit/600
+    hack-circuit/70
   ]
 }
