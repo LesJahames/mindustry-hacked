@@ -1,0 +1,18 @@
+type: Conveyor
+name: HYP3R P4SS (Erekir)
+description: Moves items at incredible speeds
+requiresWater: false
+hasShadow: false
+health: 1000
+speed: 0.4
+displayedSpeed: 6
+requirements: [
+  hack-circuit/1
+]
+category: distribution
+research: {
+  parent: duct
+  requirements: [
+    hack-circuit/100
+  ]
+}

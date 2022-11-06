@@ -2,6 +2,8 @@
 
 A mod which provides very powerful blocks to Mindustry.
 
+> Now supporting Erekir's tech tree.
+
 Thank you to:
 - TheGamer1002 (For turning this mod into 101% Hack)
 

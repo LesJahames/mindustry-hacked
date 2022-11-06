@@ -1,0 +1,18 @@
+type: Conveyor
+name: HYP3R P4SS (FL0AT/Erekir)
+description: Moves items at incredible speeds, floats on water
+requiresWater: true
+hasShadow: false
+health: 800
+speed: 0.3
+displayedSpeed: 6
+requirements: [
+  hack-circuit/1
+]
+category: distribution
+research: {
+  parent: hyper-pass2
+  requirements: [
+    hack-circuit/150
+  ]
+}

@@ -1,0 +1,24 @@
+type: genericCrafter
+craftTime: 10
+name: Liquid Replicator (Ozone/Erekir)
+description: Given power input, produces 1 unit of ozone.
+
+health: 125
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: false
+consumes: {
+  power: 1.1
+}
+requirements: [
+  hack-circuit/65
+]
+category: crafting
+outputLiquid: ozone/1
+research: {
+  parent: item-replicator-tungsten
+  requirements: [
+    hack-circuit/150
+  ]
+}

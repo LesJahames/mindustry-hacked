@@ -1,0 +1,28 @@
+type: genericCrafter
+craftTime: 21
+name: H4CK F4CT0RY (Erekir)
+description: Given 2 beryllium and power, produces 1 H4CK C1CU1T.
+
+health: 125
+size: 1
+itemCapacity: 50
+hasPower: true
+consumes: {
+  items: {
+    items: [
+      beryllium/2
+    ]
+  }
+  power: 0.4
+}
+requirements: [
+  beryllium/275
+]
+category: crafting
+outputItem: hack-circuit/1
+research: {
+  parent: turbine-condenser
+  requirements: [
+    beryllium/1000
+  ]
+}

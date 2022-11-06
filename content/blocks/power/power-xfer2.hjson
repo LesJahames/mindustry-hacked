@@ -1,0 +1,24 @@
+type: PowerNode
+name: P0W3R XF3R (Erekir)
+description: Large area of laser coverage, many connections.
+
+health: 400
+size: 1
+
+laserRange: 512
+laserColor1: 00ff00
+laserColor2: 00bb00
+maxNodes: 1024
+
+requirements: [
+  hack-circuit/35
+]
+
+category: power
+research: {
+  parent: beam-node
+  requirements: [
+    hack-circuit/200
+  ]
+}
+

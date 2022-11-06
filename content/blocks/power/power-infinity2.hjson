@@ -1,6 +1,6 @@
 type: PowerSource
 
-name: P0W3R 1NF1N1TY
+name: P0W3R 1NF1N1TY (Erekir)
 description: Almost Unlimited power, right at home
 
 size: 1
@@ -19,7 +19,7 @@ requirements: [
 
 category: power
 research: {
-  parent: power-xfer
+  parent: power-xfer2
   requirements: [
     hack-circuit/450
   ]

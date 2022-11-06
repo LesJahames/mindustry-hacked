@@ -1,0 +1,38 @@
+type: ForceProjector
+name: H3X F13LD (Erekir)
+description: Protects blocks under it, high capacity, minimal downtime, and very little power
+
+health: 1000
+size: 2
+
+phaseUseTime: 512
+phaseRadiusBoost: 128.0
+phaseShieldBoost: 204800
+shieldHealth: 204800
+radius: 256.0
+cooldownNormal: 0.1
+hasItems: true
+itemCapacity: 10
+
+consumes: {
+  power: 0.1
+  items: {
+    items: [
+      hack-circuit/5
+    ]
+    booster: true
+    optional: true
+  }
+}
+
+requirements: [
+  hack-circuit/250
+]
+
+category: effect
+research: {
+  parent: power-xfer2
+  requirements: [
+    hack-circuit/1000
+  ]
+}

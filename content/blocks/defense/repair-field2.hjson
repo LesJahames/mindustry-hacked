@@ -1,5 +1,5 @@
 type: RepairTower
-name: R3P41R F13LD
+name: R3P41R F13LD (Erekir)
 description: High range, decent repair speed.
 
 health: 100
@@ -15,7 +15,7 @@ requirements: [
 
 category: units
 research: {
-  parent: mend-field
+  parent: mend-field2
   requirements: [
     hack-circuit/1400
   ]

@@ -1,5 +1,5 @@
 type: Battery
-name: M1CR0 B4TT3RY
+name: M1CR0 B4TT3RY (Erekir)
 description: A high capacity battery
 size: 1
 health: 500
@@ -13,7 +13,7 @@ requirements: [
 ]
 category: power
 research: {
-  parent: power-xfer
+  parent: power-xfer2
   requirements: [
     hack-circuit/220
   ]

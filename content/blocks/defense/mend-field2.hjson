@@ -1,0 +1,27 @@
+type: MendProjector
+name: M3ND F13LD (Erekir)
+description: You have buildings that get damaged regularly, well not anymore.
+
+health: 1000
+size: 1
+
+reload: 1
+healPercent: 100
+range: 512
+
+phaseBoost: 256
+phaseRangeBoost: 512
+phaseColor: 00ff00
+
+requirements: [
+  hack-circuit/150
+]
+
+category: effect
+research: {
+  parent: hex-field2
+  requirements: [
+    hack-circuit/1500
+  ]
+}
+

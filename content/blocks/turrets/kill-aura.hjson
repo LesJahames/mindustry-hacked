@@ -1,0 +1,30 @@
+type: PowerTurret
+name: K1LL 4UR4 (Erekir)
+description: Quite similar to a Doom ray.
+size: 1
+health: 550
+inaccuracy: 0
+range: 460
+reloadTime: 1
+targetGround: true
+targetAir: true
+rotateSpeed: 64
+recoilAmount: 0
+powerUse: 1.0
+shootEffect: lightning
+shootType: {
+  type: BasicBulletType
+  speed: 12.0
+  damage: 64.0
+}
+
+requirements: [
+  hack-circuit/100
+]
+category: turret
+research: {
+  parent: breach
+  requirements: [
+    hack-circuit/180
+  ]
+}

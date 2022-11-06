@@ -9,8 +9,10 @@ description:
 
   https://github.com/Beanzilla/mindustry-hacked/tree/op
 
+  Now with Erekir planetary tree.
+
   Attributions:
   - TheGamer1002
   '''
-version: 0.4.6
+version: 0.5.0
 minGameVersion: 136
