@@ -1,7 +1,7 @@
 type: genericCrafter
 craftTime: 21
 name: H4CK F4CT0RY (Erekir)
-description: Given 2 beryllium and power, produces 1 H4CK C1CU1T.
+description: Given 2 beryllium, produces 1 H4CK C1CU1T.
 
 health: 125
 size: 1
@@ -13,7 +13,6 @@ consumes: {
       beryllium/2
     ]
   }
-  power: 0.4
 }
 requirements: [
   beryllium/275
